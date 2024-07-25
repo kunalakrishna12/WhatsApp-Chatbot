@@ -1,0 +1,160 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome", "thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your hours?", "When are you open?", "What are your opening hours?", "When do you close?"],
+            "responses": ["We are open 24/7", "Our support is available around the clock"],
+            "context": [""]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact you?", "What is your contact number?", "How can I get in touch?", "Contact details?"],
+            "responses": ["You can contact us via email at kunalakrishna12@gmail.com", "Our contact number is 7288854090"],
+            "context": [""]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Is it going to rain today?", "What's the forecast?", "How's the weather?"],
+            "responses": ["I recommend checking a weather website for the latest updates : https://www.accuweather.com/en/in/hyderabad/202190/weather-forecast/202190"],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?", "Can you tell me your name?", "What's your name?"],
+            "responses": ["I'm an AI assistant created to help you", "You can call me ChatBot", "I'm your virtual assistant"],
+            "context": [""]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What is your age?", "Tell me your age", "Are you old or young?"],
+            "responses": ["I'm as old as the internet!", "I don't have an age like humans do", "I'm a timeless entity"],
+            "context": [""]
+        },
+        {
+            "tag": "creator",
+            "patterns": ["Who created you?", "Who is your creator?", "Who made you?", "Who developed you?"],
+            "responses": ["I was created by Team 11"],
+            "context": [""]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": ["What can you do?", "How can you help me?", "What are your capabilities?", "What services do you offer?"],
+            "responses": ["I can answer questions, provide information, and assist with various tasks", "I'm here to help you with anything I can", "I can chat with you, provide support, and more"],
+            "context": [""]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh", "Can you tell a joke?"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you get when you cross a snowman and a vampire? Frostbite.", "Why was the math book sad? It had too many problems."],
+            "context": [""]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you like to do?"],
+            "responses": ["I enjoy learning new things and helping people", "I love answering questions and providing information"],
+            "context": [""]
+        },
+        {
+            "tag": "favorite_food",
+            "patterns": ["What's your favorite food?", "Do you have a favorite food?", "What do you like to eat?"],
+            "responses": ["I don't eat, but I imagine virtual pizza would be great!", "I enjoy the idea of all kinds of food, but I don't have a favorite"],
+            "context": [""]
+        },
+        {
+            "tag": "music",
+            "patterns": ["What kind of music do you like?", "Do you listen to music?", "What's your favorite song?"],
+            "responses": ["I enjoy all types of music in a theoretical sense", "I think classical music is fascinating, but I don't listen to music"],
+            "context": [""]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Do you play any sports?", "What's your favorite sport?", "Do you like sports?"],
+            "responses": ["I don't play sports, but I think they are interesting", "I like to learn about different sports and their rules"],
+            "context": [""]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["What's your favorite movie?", "Do you watch movies?", "Can you recommend a movie?"],
+            "responses": ["I don't watch movies, but I've heard that many people enjoy them and I can recommend popular movies based on genres if you'd like"],
+            "context": [""]
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Do you like to travel?", "What's your favorite place?", "Have you been to any interesting places?"],
+            "responses": ["I can travel anywhere on the internet!", "I think exploring different cultures is fascinating"],
+            "context": [""]
+        },
+        {
+            "tag": "book",
+            "patterns": ["What's your favorite book?", "Do you read books?", "Can you recommend a book?"],
+            "responses": ["I don't read books, but I can suggest some popular titles", "Many people enjoy classics like 'To Kill a Mockingbird' or '1984'"],
+            "context": [""]
+        },
+        {
+            "tag": "language",
+            "patterns": ["How many languages do you speak?", "Can you speak multiple languages?", "What languages do you know?"],
+            "responses": ["I can understand and respond in multiple languages", "I can help you in many languages, just ask!"],
+            "context": [""]
+        },
+        {
+            "tag": "capital",
+            "patterns": ["What is the capital of Telangana?"],
+            "responses": ["The capital of Telangana is Hyderabad"],
+            "context": [""]
+        },
+        {
+            "tag": "population",
+            "patterns": ["Can you tell me the population of India?"],
+            "responses": ["India's population is about 1.3 billion"],
+            "context": [""]
+        },
+        {
+            "tag": "appointment",
+            "patterns": ["I want to schedule an appointment", "Can I book a time to meet?", "Are there any slots available?"],
+            "responses": ["Sure, I can help you with that. What date and time are you looking for?"]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["How do I make a payment?", "Can I pay online?", "Where do I send my payment?"],
+            "responses": ["Payments can be made online through our website or sent to our billing address."]
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["Has my order shipped?", "Can you check the status of my order?", "When will my order arrive?"],
+            "responses": ["I can check that for you. Can you provide your order number?"]
+        },
+        {
+            "tag": "cancellation",
+            "patterns": ["I need to cancel my order", "How do I cancel a service?", "Is it too late to cancel?"],
+            "responses": ["I can assist with that. Can you provide the details of what you would like to cancel?"]
+        },
+        {
+            "tag": "support",
+            "patterns": ["I'm having an issue", "Can you help me troubleshoot?", "Something isn't working"],
+            "responses": ["I'm here to help. Can you describe the problem you're experiencing?"]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I'd like to give feedback", "Where can I leave a review?", "How do I report a problem?"],
+            "responses": ["Your feedback is important to us. You can leave a review on our website or contact support directly."]
+        }
+    ]
+}
